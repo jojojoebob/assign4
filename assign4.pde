@@ -172,7 +172,7 @@ switch(gameState)
       }
       if(enemyboolean[i]==-60)
       {
-        image(flame[floor(enemytime[i]/10]),enemybreak[i],enemyY[i]);
+        image(flame[floor(enemytime[i]/10)],enemybreak[i],enemyY[i]);
         if(enemytime[i]<49)
           enemytime[i]++;
         else
